@@ -1,4 +1,4 @@
-package org.example.project
+package com.amatazov.legendary.ui
 
 class Greeting {
     private val platform = getPlatform()

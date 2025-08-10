@@ -1,4 +1,4 @@
-package org.example.project
+package com.amatazov.legendary
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
