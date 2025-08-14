@@ -24,6 +24,7 @@ kotlin {
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.negotiation)
             implementation(libs.ktor.serialization)
+            implementation(libs.kotlin.immutable)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -32,6 +33,8 @@ kotlin {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutinesSwing)
             implementation(libs.ktor.client.java)
+            implementation(libs.compose.tooling.preview.desktop)
+            implementation(libs.androidx.foundation.desktop)
         }
     }
 }
